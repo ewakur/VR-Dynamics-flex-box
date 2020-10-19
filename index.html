@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Dynamics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9bc2aa573c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id='home'>
+        <div>
+            <video autoplay muted preload="true" loop class="col-12">
+            <source src="img/main_viedo.mp4" type="video/mp4">
+            </video>
+            <img class="logo" src="img/logo_VR_Dynamics.png" alt="VR-Dynamics-logo">
+        </div>
+        <nav>
+            <button class="navbtn"><i class="fas fa-bars"></i></button>
+            <ul>
+                <li class="home"><a class="lang" key="home" href="#home">STRONA GŁÓWNA</a></li>
+                <li class="aboutUs"><a class="lang" key="aboutUs" href="#aboutUs">O NAS</a></li>
+                <li class="fieldOfWork"><a class="lang" key="fieldOfWork" href="#fieldOfWork">ZAKRES DZIAŁAŃ</a></li>
+                <li class="contact"><a class="lang" key="contact" href="#contact">KONTAKT</a></li>
+            </ul>
+            <div class='language'>
+            <button id='pl'>PL</button>
+            <button id='en'>EN</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id='aboutUs'>
+            <i class="far fa-address-card"></i>
+            <div>
+                <h2 class="lang" key="aboutUs">O NAS</h2>
+                <p class="lang" key="aboutUs1"><strong>VR Dynamics Sp. z o.o.</strong> tworzy grupa ambitnych inżynierów, których łączy innowacyjność, doświadczenie i wiedza. 
+                    Sprawne działanie, zaangażowanie i ciekawość nowych technologii umożliwia nam wdrażanie do przemysłu nowoczesnych rozwiązań z zakresu automatyki, elektroniki i mechaniki. 
+                    Jesteśmy w stanie zrealizować również te najbardziej nietypowe rozwiązania.</p>
+                <p class="lang" key="aboutUs2">Nasza firma jest synonimem jakości, elastyczności i niezawodności. Naszym klientom oferujemy nie tylko usługi projektowe i wykonawcze, ale także wsparcie przy wdrażaniu nowych ciekawych projektów nie tylko dla przemysłu.</p>
+            </div>
+            
+        </section>
+        <hr>
+        <section id='fieldOfWork'>
+            <i class="fas fa-microchip"></i>
+            <div>
+                <h2 class="lang" key="fieldOfWork">ZAKRES DZIAŁAŃ</h2>
+                <p class="lang" key="fieldOfWork1"><strong>Projektowanie</strong>, <strong>wykonawstwo</strong> oraz <strong>koordynacja</strong> projektów w zakresie:</p>
+                <ul>
+                    <li class="lang" key="fow1">Maszyn i urządzeń przemysłowych oraz systemów zrobotyzowanych</li>
+                    <li class="lang" key="fow2">Produkcja komponentów automatyki i bezpieczeństwa</li>
+                    <li class="lang" key="fow3">Systemów chłodzenia urządzeń przemysłowych</li>
+                    <li class="lang" key="fow4">Analizy procesów przemysłowych</li>
+                    <li class="lang" key="fow5">Konstrukcji stalowych</li>
+
+                </ul>
+                
+                <p class="lang" key="fieldOfWork2">Nasza oferta skupia się na <strong>trzech głównych</strong> obszarach działalności:</p>
+                <ul>
+                <li class="lang" key="fow6">Budowa nowych maszyn i urządzeń</li>
+                <li class="lang" key="fow7">Modernizacje, dostosowanie istniejących stanowisk (zmiana detalu, wymogi bezpieczeństwa, zmiana cyklu)</li>
+                <li class="lang" key="fow8">Relokacje linii i maszyn wewnętrzne i pomiędzy zakładami, serwis konserwacyjny i awaryjny</li>
+                </ul>  
+            </div>
+            
+        </section>
+        <hr>
+        <section id='contact'>
+            <i class="fas fa-mail-bulk"></i>
+            <div>
+                <h2 class="lang" key="contact">KONTAKT</h2>
+                <div>
+                <h4>VR Dynamics Sp. z o.o.</h4>
+                <p class="lang" key="contact1">Adres:</p>
+                <p class="lang" key="contact2">ul. Okulickiego 50</p>
+                <p>32-800 Brzesko</p>
+                <p><a href="mailto:office@vrdynamics.pl" class="mail">office@vrdynamics.pl</a></p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+        <form class="contactForm">
+            <h3 class="lang" key="formHeader">Skontaktuj się z Nami!</h3>
+            <label class="lang" key="formName">Twoje Imię *</label>
+            <input class="InputName" type="text">
+            <label class="lang" key="formEmail">Twój email *</label>
+            <input class="InputEmail" type="email">
+            <label class="lang" key="formSubject">Tytuł</label>
+            <input class="InputTitle" type="text">
+            <label class="lang" key="formMessage">Treść</label>
+            <textarea class="InputMessage" rows="10"></textarea>
+            <button class="submitbtn lang" key="formSend" type="submit">Wyślij</button>
+        </form>
+        <hr>
+        <div>
+           <p id="copy_right"> &copy Copyright </p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/translate.js"></script>
+</body>
+</html>
